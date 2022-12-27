@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: 600;
+  }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins-Regular";
+  }
+
+.block_footer {
+    width: 1440px;
+    height: 204px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 0 150px;
+}
+
+.block_footer_social {
+    width: 112px;
+    height: 24.61px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.block_footer_info {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 0 20px 0;
+}
